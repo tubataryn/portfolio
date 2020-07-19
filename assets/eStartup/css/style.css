@@ -1203,7 +1203,12 @@ body.mobile-nav-active #mobile-nav-toggle i {
 /* Contact Section
 --------------------------------*/
 #contact {
-  background: #fff;
+  background: black;
+}
+
+#contact .secondary-title {
+ color: #fff; 
+ padding: 15px;
 }
 
 #contact .info {

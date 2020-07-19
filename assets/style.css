@@ -1,0 +1,11 @@
+* {
+    text-align: center;
+}
+
+#header h1 {
+    text-align: end;
+}
+
+#header .nav-menu {
+    text-align: end;
+}
