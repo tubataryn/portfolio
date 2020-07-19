@@ -1,60 +1,134 @@
 <!DOCTYPE html>
-<html lan="eng">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale-1.0" />
-        STYLE SHEET LINK
-    </head>
+<html lang="en">
 
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Taryn Fanning // Web Developer</title>
+    <link rel="stylesheet" href="./assets/eStartup/css/style.css" />
 
-        <header>
-            <h1> <a href="/">Taryn's Portfolio</a> </h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#work">Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact-me">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="#resume">Resume</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+</head>
 
-        <section class="hero">
-            <div class="hero-cta">
-                <h2>Welcome to my portfolio!</h2>
+<body>
+    <!-- main logo / nav -->
+    <header id="header">
+        <h1>Taryn Fanning</h1>
+        <nav class="nav-menu">
+            <a href="#about-us">About Me</a>
+            <a href="#features">Work</a>
+            <a href="#contact">Contact Me</a>
+            <!-- Link this to your resume! -->
+            <a href="https://my.indeed.com/p/tarynf-lhjcsr4">Resume</a>
+        </nav>
+    </header>
+
+    <!-- hero banner -->
+    <section class="hero-banner" id="hero">
+        
+        <div class="hero-container">
+            <img src="./assets/eStartup/img/hero-img.png" alt="hero-img" />
+            <h2>Be different. Shake the web.</h2>
+        </div>
+    </section>
+
+    <main class="page-wrapper">
+        <!-- about me -->
+        <section class="page-section" id="about-us">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, soluta fuga provident quod non
+                    voluptates. Voluptatibus facere dicta doloremque, soluta laboriosam cupiditate repellendus non
+                    temporibus repudiandae maxime tempore illum repellat!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nihil blanditiis velit itaque
+                    voluptas sunt temporibus impedit, vitae provident autem adipisci optio consectetur laborum iste vero
+                    dolorem, excepturi debitis iusto.
+                </p>
             </div>
         </section>
 
-        <section id="about-me" class="about-me">
-            <div class="flex-row">
-                <h2 class="section-title primary-border">About Me</h2>
+        <!-- portfolio grid -->
+        <section class="page-section" id="features">
+            <h2 class="section-title">Work</h2>
+            <div>
+
+                <div class="feature-block">
+                    <a href="https://tubataryn.github.io/run-buddy/" class="grid-item run-buddy">
+                        <div>
+                            <h3>Run Buddy</h3>
+                            <span>HTML/CSS</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="feature-block">
+                    <a href="https://alirueter.github.io/find-my-munchies/" class="grid-item munchies">
+                        <div>
+                            <h3>Find My Munchies</h3>
+                            <span>HTML/CSS/Javascript</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="feature-block">
+                    <a href="https://tubataryn.github.io/coding-quiz/" class="grid-item coding-quiz">
+                        <div>
+                            <h3>JavaScript Quiz</h3>
+                            <span>JavaScript/CSS</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="feature-block">
+                    <a href="https://tubataryn.github.io/weather-dash/" class="grid-item weather-dash">
+                        <div>
+                            <h3>Weather Dashboard</h3>
+                            <span>JavaScript/CSS</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="feature-block">
+                    <a href="https://tubataryn.github.io/schedule/" class="grid-item schedule">
+                        <div>
+                            <h3>Schedule Creator</h3>
+                            <span>JavaScript/CSS</span>
+                        </div>
+                    </a>
+                </div>
+
             </div>
-            <div class="flex-row">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus, unde possimus, veritatis neque labore soluta earum, natus commodi sed hic! Officia non nisi deleniti doloribus magni hic, ducimus laboriosam?
-                </p>
+        </section>
+
+        <!-- contact -->
+        <section class="page-section contact" id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="info social-links">
+                <address>
+                    <a href="tel:+12628657459">262.865.7459</a>
                 </br>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet tempora quo temporibus ipsa voluptas deserunt doloribus laborum fugit ratione quae ex, nam fugiat numquam tenetur? Doloribus laboriosam assumenda perferendis officia.
-                </p>
+                    <a href="mailto:taryn.fanning@gmail.com">taryn.fanning@gmail.com</a>
+                </br>
+                    <a href="https://github.com/tubataryn">GitHub</a>
+                </br>
+                    <a href="https://twitter.com/tubataryn">Twitter</a>
+                </br>
+                    <a href="https://open.spotify.com/user/12125484755">Spotify</a>
+                </address>
             </div>
         </section>
+    </main>
+</body>
 
-        <section id="work" class="work">
-            <div class="flex-row">
-                <h2 class="section-title primary-border">Work</h2>
-            </div>
-            
-        </section>
-    </body>
+<footer class="footer">
+    <div class="copyrights">
+        <div class="container">
+            © Lumpfish Inc. 2020
+        </div>
+    </div>
+</footer>
+
 </html>
